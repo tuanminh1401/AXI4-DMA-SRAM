@@ -1,0 +1,10 @@
+# ModelSim / QuestaSim Simulation Artifacts
+work/
+transcript
+*.wlf
+wlft*
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/

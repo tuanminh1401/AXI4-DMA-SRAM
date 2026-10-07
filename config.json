@@ -1,0 +1,35 @@
+{
+    "DESIGN_NAME": "dma_top",
+    "VERILOG_FILES": [
+        "dir::src/dma_csr.sv",
+        "dir::src/dma_fifo.sv",
+        "dir::src/dma_read_master.sv",
+        "dir::src/dma_write_master.sv",
+        "dir::src/dma_top.sv"
+    ],
+    "CLOCK_PORT": "clk",
+    "CLOCK_NET": "clk",
+    "CLOCK_PERIOD": 6.0,
+
+    "FP_CORE_UTIL": 50,
+    "PL_TARGET_DENSITY": 0.55,
+    "FP_ASPECT_RATIO": 1.0,
+
+    "MAX_FANOUT_CONSTRAINT": 16,
+    "SYNTH_STRATEGY": "AREA 0",
+
+    "FP_IO_MODE": 1,
+    "FP_IO_HLAYER": "met3",
+    "FP_IO_VLAYER": "met2",
+
+    "DIODE_INSERTION_STRATEGY": 4,
+
+    "PL_RESIZER_DESIGN_OPTIMIZATIONS": 1,
+    "PL_RESIZER_TIMING_OPTIMIZATIONS": 1,
+    "GLB_RESIZER_TIMING_OPTIMIZATIONS": 1,
+
+    "RUN_CTS": 1,
+    "RUN_ROUTING": 1,
+    "RUN_LVS": 1,
+    "RUN_DRC": 1
+}
